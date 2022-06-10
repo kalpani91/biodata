@@ -101,16 +101,8 @@ nav li a:hover {
     padding: 160px 0;
 }
 
-.intro-wrapper {
-    max-width: 680px;
-    margin: 0 auto;
-}
-
-.name-title {
-    width: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.intro-title-wrapper {
+    max-width: 650px;
     margin: 0 auto;
 }
 
