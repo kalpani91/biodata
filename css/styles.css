@@ -1,0 +1,312 @@
+/* Common Styles */
+html {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    line-height: 2;
+}
+
+section {
+    padding: 120px 0;
+}
+
+h1 {
+    font-family: 'Sacramento', cursive;
+    font-size: 90px;
+    margin: 20px 0;
+}
+
+h2 {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-weight: 800;
+    letter-spacing: 1.5px;
+    color: #11d6f4;
+    margin-bottom: 60px;
+}
+
+h4 {
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+p {
+    font-size: 15px;
+    line-height: 1.3;
+}
+
+li {
+    list-style: none;
+}
+
+hr {
+    border: dotted #11d6f4 8px;
+    border-bottom: none;
+    width: 5%;
+    margin: 30px auto;
+    padding: 0 30px;
+    opacity: 0.5;
+}
+
+em {
+    font-size: 11px;
+}
+
+/* Navbar Styles */
+nav {
+    background-color: #77E4D4;
+}
+
+nav ul {
+    display: flex;
+    justify-content: end;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    padding: 10px 20px;
+}
+
+nav li a {
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #000;
+}
+
+nav li a:hover {
+    color: rgb(56, 69, 97);
+}
+
+/* Intro Section Styles */
+.intro {
+    background-color: #77E4D4;
+    color: #000;
+    padding: 160px 0;
+}
+
+.intro-wrapper {
+    max-width: 680px;
+    margin: 0 auto;
+}
+
+.name-title {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+/* Bio Section Styles */
+.bio .my-story {
+    margin: 20px auto 0;
+}
+
+/* Skills Section Styles */
+.skill-item {
+    padding: 25px 20px;
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.skill-item i {
+    font-size: 30px;
+    color: #11d6f4;
+    margin-bottom: 8px;
+}
+
+.skill-item i:hover {
+    color: #efefef;
+}
+
+/* Experience Section Styles */
+.experience .employer {
+    margin-bottom: 20px;
+    transition: transform 0.4s;
+}
+
+.experience .employer:hover {
+    transform: scale(1.15);
+}
+
+.experience .company-logo.thiken {
+    width: 100px;
+}
+
+.experience .company-logo.perfect-one {
+    width: 92px;
+    position: relative;
+    top: 18px;
+}
+
+.experience .company-logo.tbwa {
+    width: 52px;
+}
+
+.experience h4 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #fff;
+    line-height: 1.4;
+}
+
+/* Education Section Styles */
+.education {
+    background-color: #efefef;
+    color: #000;
+}
+
+.education .course {
+    padding-bottom: 50px;
+}
+
+.education .course .degree-uom-icon {
+    width: 120px;
+    position: relative;
+    left: -15px;
+}
+
+.education .course .degree-online-icon {
+    width: 90px;
+    margin-bottom: 18px;
+}
+
+.education h2 {
+    color: rgb(56, 60, 65);
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1.2;
+    margin-bottom: 10px;
+}
+
+.education p {
+    margin-bottom: 0;
+}
+
+/* Projects Section Styles */
+.projects .carousel {
+    margin: 15px 0 60px;
+}
+
+.projects .carousel:last-child {
+    margin-bottom: 0;
+}
+
+.project-title,
+.project-description {
+    text-align: left;
+}
+
+.projects .boomroom-mobile img {
+    width: 70%;
+}
+
+.projects .thiken-app-sparkle-mobile-img {
+    width: 60%;
+}
+
+.projects .project-url {
+    font-size: 14px;
+    text-align: left;
+}
+
+.projects .project-url a {
+    color: #11d6f4;
+    opacity: 0.8;
+}
+
+.projects .project-url a:hover {
+    opacity: 1;
+}
+
+/* Referees Section Styles */
+.contact.referees h3 {
+    color: #11d6f4;
+}
+
+.contact.referees {
+    background-color: #000;
+    color: #fff;
+}
+
+.referees ul {
+    padding: 0;
+    margin-bottom: 50px;
+    line-height: 1.6;
+}
+
+/* Contact Section Styles */
+.contact {
+    background-color: #efefef;
+    color: #000;
+}
+
+.contact h3 {
+    margin-bottom: 30px;
+    color: #05dad3;
+}
+
+.contact p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.contact ul li a {
+    text-decoration: none;
+    color: rgb(56, 60, 65);
+}
+
+.contact ul li a:hover {
+    color: #000;
+}
+
+/* Footer Styles */
+footer {
+    color: #fff;
+    padding: 30px 50px;
+}
+
+footer ul {
+    max-width: 400px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding: 0;
+}
+
+footer a {
+    color: #11d6f4;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #1f9fb3;
+}
+
+footer i {
+    font-size: 22px;
+}
+
+footer small {
+    font-size: 13px;
+    color: #efefef;
+}
