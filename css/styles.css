@@ -21,12 +21,6 @@ section {
     padding: 120px 0;
 }
 
-h1 {
-    font-family: 'Sacramento', cursive;
-    font-size: 88px;
-    margin: 30px 10px;
-}
-
 h2 {
     font-size: 25px;
     margin-bottom: 20px;
@@ -137,6 +131,19 @@ nav li a:hover {
 .intro-title-wrapper {
     max-width: 750px;
     margin: 0 auto;
+}
+
+.intro .intro-title-wrapper h1 {
+    position: relative;
+    font-family: 'Sacramento', cursive;
+    font-size: 88px;
+    margin: 30px 10px;
+    animation: hero-title 1.3s;
+}
+
+@keyframes hero-title {
+    from {top: 60px;} 
+    to {top: 0;}
 }
 
 .intro .intro-title-wrapper .profile-icon {
